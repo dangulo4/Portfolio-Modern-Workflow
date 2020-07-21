@@ -5,7 +5,7 @@ class RevealOnScroll {
   constructor(els, thresholdPercent) {
     this.thresholdPercent = thresholdPercent;
     this.itemsToReveal = els;
-    this.browswerHeight = window.innerHeight;
+    this.browserHeight = window.innerHeight;
     this.hideInitially();
     this.scrollThrottle = throttle(this.calcCaller, 200).bind(this);
     this.events();
@@ -17,7 +17,7 @@ class RevealOnScroll {
       'resize',
       debounce(() => {
         console.log('resize just ran');
-        this.browswerHeight = window.innerHeight;
+        this.browserHeight = window.innerHeight;
       }, 333)
     );
   }
@@ -32,10 +32,10 @@ class RevealOnScroll {
   }
 
   calculateIfScrollTo(el) {
-    if (window.scrollY + this.browswerHeight > el.offsetTop) {
+    if (window.scrollY + this.browserHeight > el.offsetTop) {
       console.log('Element was Claculated');
       let scrollPercent =
-        (el.getBoundingClientRect().y / this.browswerHeight) * 100;
+        (el.getBoundingClientRect().y / this.browserHeight) * 100;
       if (scrollPercent < this.thresholdPercent) {
         el.classList.add('reveal-item--is-visible');
         el.isRevealed = true;
