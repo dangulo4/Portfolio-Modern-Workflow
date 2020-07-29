@@ -42,8 +42,7 @@ class Modal {
       </h2>
       <div class="wrapper wrapper--narrow">
         <p class="modal__description">
-          We will have an online order system in place soon. Until then,
-          connect with us on any of the platforms below!
+          Feel free to connect with me on any of the platforms below!
         </p>
       </div>
 
