@@ -2,15 +2,15 @@
   @mixin clearfix;
 
   &--t-padding {
-    padding-top: 80px;
+    padding-top: 60px;
   }
 
   &--gutters {
-    margin-right: -65px;
+    margin-right: -30px;
   }
 
   &--gutters-large {
-    margin-right: -100px;
+    margin-right: -75px;
   }
 
   &--gutters-small {
@@ -18,11 +18,11 @@
   }
 
   &--gutters > div {
-    padding-right: 65px;
+    padding-right: 30px;
   }
 
   &--gutters-large > div {
-    padding-right: 100px;
+    padding-right: 75px;
   }
 
   &--gutters-small > div {
