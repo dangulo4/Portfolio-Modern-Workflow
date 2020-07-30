@@ -29,4 +29,9 @@
       font-size: 1.875rem;
     }
   }
+
+  &__code-link {
+    color: $mainWhite;
+    text-decoration: none;
+  }
 }
