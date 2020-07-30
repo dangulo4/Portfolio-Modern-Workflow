@@ -38,7 +38,7 @@ class Modal {
         class="section-title section-title--blue section-title--less-margin"
       >
         <img src="assets/images/icons/mail.svg" class="section-title__icon" />
-        Get in <strong>Touch</strong>
+        Get in <strong>Touch </strong>dangulo4@gmail.com
       </h2>
       <div class="wrapper wrapper--narrow">
         <p class="modal__description">
