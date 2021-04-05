@@ -17,8 +17,9 @@
   }
 
   &__title {
-    font-weight: bold;
-    color: $mainWhite;
+    /* font-weight: bold; */
+    padding-top: 70px;
+    color: #f4efe1;
     text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
     margin: 0;
     font-size: 2.4rem;
