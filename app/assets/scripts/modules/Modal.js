@@ -40,7 +40,7 @@ class Modal {
         <img src="assets/images/icons/mail.svg" class="section-title__icon" />
         Get in <strong>Touch </strong>dangulo4@gmail.com 
       </h2>
-      <h3 class="section-title section-title--blue">Click <a href="assets/images/DanielAngulo.pdf">here</a> to view my Resume</h3>
+      <h3 class="section-title section-title--blue">Click <a href="assets/images/DanielAngulo.pdf" target="_blank">here</a> to view my Resume</h3>
         <div class="wrapper wrapper--narrow">
         <p class="modal__description">
           Feel free to connect with me on any of the platforms below!

@@ -7,7 +7,7 @@
   }
 
   &__text-content {
-    padding-top: 60px;
+    padding-bottom: 20px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -18,7 +18,6 @@
 
   &__title {
     /* font-weight: bold; */
-    padding-top: 70px;
     color: #f4efe1;
     text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
     margin: 0;
@@ -37,7 +36,8 @@
     margin: 0;
 
     @mixin atSmall {
-      font-size: 2.9rem;
+      font-size: 2.5rem;
+      padding: auto;
     }
   }
   &__description {
