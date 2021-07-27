@@ -48,16 +48,16 @@ class Modal {
       </div>
 
       <div class="social-icons">
-        <a href="https://www.linkedin.com/in/daniel-angulo-0b7a3781/" class="social-icons__icon"
+        <a href="https://www.linkedin.com/in/daniel-angulo-0b7a3781/" class="social-icons__icon" target="_blank"
           ><img src="assets/images/icons/linkedin.svg" alt="Linkedin"
         /></a>
-        <a href="https://github.com/dangulo4" class="social-icons__icon"
+        <a href="https://github.com/dangulo4" class="social-icons__icon" target="_blank"
           ><img src="assets/images/icons/github.svg" alt="Github"
         /></a>
-        <a href="https://www.instagram.com/deecoys51/" class="social-icons__icon"
+        <a href="https://www.instagram.com/deecoys51/" class="social-icons__icon" target="_blank"
           ><img src="assets/images/icons/instagram.svg" alt="Instagram"
         /></a>
-        <a href="https://www.youtube.com/channel/UCRKOrDOta1dCRL1-Blq4OwA/videos?view_as=subscriber" class="social-icons__icon"
+        <a href="https://www.youtube.com/channel/UCRKOrDOta1dCRL1-Blq4OwA/videos?view_as=subscriber" class="social-icons__icon" target="_blank"
           ><img src="assets/images/icons/youtube.svg" alt="YouTube"
         /></a>
       </div>
