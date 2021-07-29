@@ -1,9 +1,18 @@
 .feature-item {
   position: relative;
   padding-bottom: 2.5rem;
+  /* background: rgb(21, 28, 43); */
+  /* border-radius: 0.25rem;
+  margin: 2rem 0;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s linear; */
 
   @mixin atSmall {
-    padding-left: 0px;
+    padding-left: 50px;
+  }
+
+  &__image {
+    display: inline;
   }
 
   &__icon {
@@ -24,10 +33,16 @@
     text-align: center;
 
     @mixin atSmall {
-      text-align: left;
+      text-align: center;
       margin-top: 1em;
       font-size: 1.875rem;
     }
+  }
+
+  p a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   &__code-link {

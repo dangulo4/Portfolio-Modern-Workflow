@@ -7,10 +7,10 @@
   }
 
   &__text-content {
-    padding-top: 2150px;
+    padding-top: 1950px;
     position: absolute;
     top: 45%;
-    transform: translateY(-95%);
+    transform: translateY(-94%);
     left: 0;
     width: 100%;
     text-align: center;
